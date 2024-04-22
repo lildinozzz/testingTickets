@@ -1,0 +1,72 @@
+.filters-card {
+  background-color: white;
+  width: 310px;
+  height: 450px;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+}
+
+.filters-card h1 {
+  font-size: 20px;
+}
+
+.section-title {
+  margin-top: 15px;
+}
+
+.currency-buttons {
+  margin-top: 20px;
+  color: white;
+}
+
+.currency-buttons .chakra-button {
+  width: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.currency-buttons .chakra-button:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.currency-buttons .chakra-button:nth-child(2) {
+  border-right: 0;
+  border-left: 0;
+}
+
+.currency-buttons .chakra-button:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.transfers-checkboxes {
+  margin-top: 20px;
+  height: 270px;
+}
+
+.transfer-checkbox {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.transfer-checkbox:hover {
+  background-color: rgba(135, 206, 250, 0.3);
+}
+
+.transfer-checkbox:hover::after {
+  content: 'только';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #87CEFA;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.transfers-checkboxes .chakra-checkbox {
+  height: 40px;
+}
